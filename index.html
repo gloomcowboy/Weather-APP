@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Poké Weather</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Same porportions as the index.ejs  -->
+  <div class="wrapper">
+    <div class="container">
+      <form id="weatherForm">
+        <input type="text" id="city" placeholder="City ?" required />
+        <button type="submit">Find Weather info</button>
+      </form>
+    </div>
+
+    <div class="content" id="weatherContent"></div>
+  </div>
+  
+  <!-- Call the script  -->
+  <script src="main.js"></script>
+</body>
+</html>
